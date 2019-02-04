@@ -23,8 +23,8 @@
 Thanks to the awesome folks over at [Fastly][fastly], there's a free, CDN hosted version of Video.js that anyone can use. Add these tags to your document's `<head>`:
 
 ```html
-<link href="//vjs.zencdn.net/7.2/video-js.min.css" rel="stylesheet">
-<script src="//vjs.zencdn.net/7.2/video.min.js"></script>
+<link href="//vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/7.3.0/video.min.js"></script>
 ```
 
 > For the latest version of video.js and URLs to use, check out the [Getting Started][getting-started] page on our website.
@@ -37,7 +37,7 @@ In older versions of Video.js (6 and earlier), in the `vjs.zencdn.net` CDN-hoste
 <script>window.HELP_IMPROVE_VIDEOJS = false;</script>
 ```
 
-Alternatively, you can include Video.js by getting it from [npm](http://videojs.com/getting-started/#download-npm), downloading from [GitHub releases](https://github.com/videojs/video.js/releases) or by including it via [unpkg](https://unpkg.com) or another JavaScript CDN like CDNjs. These releases _do not_ include Google Analytics tracking at all.
+Alternatively, you can include Video.js by getting it from [npm](https://videojs.com/getting-started/#download-npm), downloading from [GitHub releases](https://github.com/videojs/video.js/releases) or by including it via [unpkg](https://unpkg.com) or another JavaScript CDN like CDNjs. These releases _do not_ include Google Analytics tracking at all.
 
 ```html
 <!-- unpkg : use the latest version of Video.js -->
@@ -69,7 +69,7 @@ Next, using Video.js is as simple as creating a `<video>` element, but with an a
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a
     web browser that
-    <a href="http://videojs.com/html5-video-support/" target="_blank">
+    <a href="https://videojs.com/html5-video-support/" target="_blank">
       supports HTML5 video
     </a>
   </p>
@@ -129,15 +129,15 @@ Video.js is [licensed][license] under the Apache License, Version 2.0.
 
 [coveralls-link]: https://coveralls.io/github/videojs/video.js?branch=master
 
-[docs]: http://docs.videojs.com
+[docs]: https://docs.videojs.com
 
-[fastly]: http://www.fastly.com/
+[fastly]: https://www.fastly.com/
 
-[getting-started]: http://videojs.com/getting-started/
+[getting-started]: https://videojs.com/getting-started/
 
 [license]: LICENSE
 
-[logo]: http://videojs.com/img/logo.png
+[logo]: https://videojs.com/img/logo.png
 
 [npm-icon]: https://nodei.co/npm/video.js.png?downloads=true&downloadRank=true
 
@@ -145,7 +145,7 @@ Video.js is [licensed][license] under the Apache License, Version 2.0.
 
 [options]: docs/guides/options.md
 
-[plugins]: http://videojs.com/plugins/
+[plugins]: https://videojs.com/plugins/
 
 [slack-icon]: http://slack.videojs.com/badge.svg
 
@@ -155,6 +155,6 @@ Video.js is [licensed][license] under the Apache License, Version 2.0.
 
 [travis-link]: https://travis-ci.org/videojs/video.js
 
-[vjs]: http://videojs.com
+[vjs]: https://videojs.com
 
 [coc]: CODE_OF_CONDUCT.md
